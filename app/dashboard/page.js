@@ -1,5 +1,5 @@
 // pages/index.js
-import Layout from '../components/Layout/Layout';
+import Layout from '../../components/Layout/Layout';
 
 function ExamplesChlotes(){
     return (
@@ -78,6 +78,18 @@ function ExamplesChlotes(){
 const Dashboard = () => {
     return (
         <Layout>
+            <ExamplesChlotes/>
+            <ExamplesChlotes/>
+            <ExamplesChlotes/>
+            <ExamplesChlotes/>
+            <ExamplesChlotes/>
+            <ExamplesChlotes/>
+            <ExamplesChlotes/>
+            <ExamplesChlotes/>
+            <ExamplesChlotes/>
+            <ExamplesChlotes/>
+            <ExamplesChlotes/>
+            <ExamplesChlotes/>
             <ExamplesChlotes/>
         </Layout>
     );

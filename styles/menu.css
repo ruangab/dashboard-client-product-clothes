@@ -1,0 +1,11 @@
+.class-menu{
+    position: fixed !important;
+    width: 250px !important;
+    top:0;
+    left: 0;
+    bottom: 0;
+}
+
+.class-content{
+    margin-left: 260px !important;
+}

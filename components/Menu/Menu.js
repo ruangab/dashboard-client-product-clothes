@@ -2,6 +2,7 @@
  
 // Importando módulo para roteamento de rotas dentro do react
 import { useRouter } from 'next/navigation'
+import '../../styles/menu.css'
 
 function Menu () {
     // Instanciando hook de roteamento
@@ -11,7 +12,7 @@ function Menu () {
         router.push('/');
     }
     return (
-        <div className="w-64 bg-white border-r overflow-y-auto">
+        <div className="w-64 bg-white border-r overflow-y-auto class-menu">
             <div className="flex h-screen flex-col justify-between border-e bg-white">
             <div className="px-4 py-6">
                 <span className="grid h-10 w-32 place-content-center rounded-lg bg-gray-100 text-xs text-gray-600">
@@ -21,10 +22,10 @@ function Menu () {
                 <ul className="mt-6 space-y-1">
                 <li>
                     <a
-                    href="#"
+                    href="/dashboard"
                     className="block rounded-lg bg-gray-100 px-4 py-2 text-sm font-medium text-gray-700"
                     >
-                    General
+                    Dashboard
                     </a>
                 </li>
 
@@ -75,10 +76,10 @@ function Menu () {
 
                 <li>
                     <a
-                    href="#"
+                    href="/products"
                     className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
                     >
-                    Billing
+                    Products
                     </a>
                 </li>
 
